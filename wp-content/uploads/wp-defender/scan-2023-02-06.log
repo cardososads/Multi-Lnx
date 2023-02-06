@@ -1,0 +1,24 @@
+[2023-02-06T07:24:53+00:00] Prepare facts for a scan
+[2023-02-06T07:24:53+00:00] Current task gather_fact
+[2023-02-06T07:24:53+00:00] processing gather_fact
+[2023-02-06T07:24:53+00:00] Core: 2525
+[2023-02-06T07:24:53+00:00] get_core_files in 0
+[2023-02-06T07:24:53+00:00] process done, queue for next
+[2023-02-06T07:24:53+00:00] Scan not done, pinging
+[2023-02-06T07:24:53+00:00] Current task gather_fact
+[2023-02-06T07:24:53+00:00] processing gather_fact
+[2023-02-06T07:24:53+00:00] Content: 5440
+[2023-02-06T07:24:53+00:00] get_content_files in 0
+[2023-02-06T07:24:53+00:00] task gather_fact processed
+[2023-02-06T07:24:53+00:00] queue core_integrity_check for next
+[2023-02-06T07:24:53+00:00] process done, queue for next
+[2023-02-06T07:24:53+00:00] Scan not done, pinging
+[2023-02-06T07:24:53+00:00] Current task core_integrity_check
+[2023-02-06T07:24:53+00:00] processing core_integrity_check
+[2023-02-06T07:24:53+00:00] Fetch checksums, should only once
+[2023-02-06T07:24:53+00:00] current pos 0
+[2023-02-06T07:25:11+00:00] skip /home/u452192538/domains/multilnx.com/public_html/.git because of file is whitelisted
+[2023-02-06T07:25:11+00:00] skip /home/u452192538/domains/multilnx.com/public_html/.htaccess because of file is whitelisted
+[2023-02-06T07:25:11+00:00] task core_integrity_check processed
+[2023-02-06T07:25:11+00:00] All done!
+[2023-02-06T07:25:11+00:00] process done, queue for next

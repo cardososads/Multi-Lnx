@@ -1,0 +1,552 @@
+02-06-2023 @ 02:09:43 - [process_payment]: customer being redirected to Mercado Pago.
+02-06-2023 @ 02:09:43 - [get_transaction]: Preference: {
+    "additional_info": null,
+    "auto_return": "approved",
+    "back_urls": {
+        "failure": "https:\/\/multilnx.com\/cart\/?cancel_order=true&order=wc_order_6UfVn9i0lnhFf&order_id=20&redirect&_wpnonce=1b5cf0d3ec",
+        "pending": "https:\/\/multilnx.com\/checkout\/order-received\/20\/?key=wc_order_6UfVn9i0lnhFf",
+        "success": "https:\/\/multilnx.com\/checkout\/order-received\/20\/?key=wc_order_6UfVn9i0lnhFf"
+    },
+    "binary_mode": false,
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-20",
+    "items": [
+        {
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Criacao-de-pagina-de-destino-personalizada",
+            "id": 18,
+            "picture_url": "https:\/\/multilnx.com\/wp-content\/uploads\/2023\/02\/album-1.jpg",
+            "quantity": 1,
+            "title": "Landing Page x 1",
+            "unit_price": 29.9
+        }
+    ],
+    "marketplace": null,
+    "marketplace_fee": null,
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.3.0",
+        "module_version": "6.7.0",
+        "php_version": "8.1.11",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "1303752454",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "12",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "https:\/\/multilnx.com",
+        "billing_address": {
+            "zip_code": "69310125",
+            "street_name": "1343 Travessa Jardim Floresta",
+            "city_name": "Boa Vista",
+            "state_name": "RR",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "cardoso.tads@gmail.com",
+            "user_registration_date": "2023-02-06T00:58:59.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "notification_url": "https:\/\/multilnx.com\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "payer": {
+        "address": {
+            "street_name": "1343 Travessa Jardim Floresta \/ Boa Vista RR BR",
+            "street_number": null,
+            "zip_code": "69310-125"
+        },
+        "date_created": null,
+        "email": "cardoso.tads@gmail.com",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "name": "Shutz",
+        "phone": {
+            "area_code": null,
+            "number": "95981114620"
+        },
+        "surname": "Mirhagen"
+    },
+    "payment_methods": {
+        "default_installments": null,
+        "default_payment_method_id": null,
+        "installments": 12
+    },
+    "purpose": null,
+    "shipments": {
+        "cost": null,
+        "default_shipping_method": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null,
+        "receiver_address": {
+            "apartment": "",
+            "city_name": "",
+            "floor": null,
+            "state_name": "",
+            "street_name": "    ",
+            "street_number": null,
+            "zip_code": ""
+        }
+    },
+    "sponsor_id": null,
+    "statement_descriptor": "CodeTag - Soluções em tecnologia"
+}
+02-06-2023 @ 02:09:43 - [create_preference]: Created Preference: {
+    "id": "1303752454-546dc6e1-16c5-49eb-bee5-bcef77365adf",
+    "collector_id": 1303752454,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "18",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_816912-MLB53632934807_022023-F.jpg",
+            "title": "Landing Page x 1",
+            "description": "Criacao-de-pagina-de-destino-personalizada",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "quantity": 1,
+            "unit_price": 29.9
+        }
+    ],
+    "payer": {
+        "name": "Shutz",
+        "surname": "Mirhagen",
+        "email": "cardoso.tads@gmail.com",
+        "date_created": null,
+        "phone": {
+            "area_code": "",
+            "number": "95981114620"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "1343 Travessa Jardim Floresta  Boa Vista RR BR",
+            "street_number": null,
+            "zip_code": "69310-125"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/multilnx.com\/checkout\/order-received\/20\/?key=wc_order_6UfVn9i0lnhFf",
+        "pending": "https:\/\/multilnx.com\/checkout\/order-received\/20\/?key=wc_order_6UfVn9i0lnhFf",
+        "failure": "https:\/\/multilnx.com\/cart\/?cancel_order=true&order=wc_order_6UfVn9i0lnhFf&order_id=20&redirect&_wpnonce=1b5cf0d3ec"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 12,
+        "default_installments": null
+    },
+    "client_id": "393943123709041",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "street_number": null,
+            "floor": "",
+            "apartment": ""
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "CodeTag - Soluções em tecnologia",
+    "external_reference": "WC-20",
+    "additional_info": "",
+    "expires": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "date_created": "2023-02-06T01:09:43.589-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=1303752454-546dc6e1-16c5-49eb-bee5-bcef77365adf",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=1303752454-546dc6e1-16c5-49eb-bee5-bcef77365adf",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "yes",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "12",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "Boa Vista",
+            "country_name": "BR",
+            "state_name": "RR",
+            "street_name": "1343 Travessa Jardim Floresta",
+            "zip_code": "69310125"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1303752454",
+        "credits_settings": [],
+        "custom_settings": {
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "coupon_mode": "no",
+            "currency_conversion": "yes",
+            "enabled": "yes",
+            "gateway_discount_checkbox": "no",
+            "wallet_button": "yes"
+        },
+        "details": "",
+        "module_version": "6.7.0",
+        "original_notification_url": "https:\/\/multilnx.com\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.11",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.3.0",
+        "seller_website": "https:\/\/multilnx.com",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "cardoso.tads@gmail.com",
+            "user_registration_date": "2023-02-06T00:58:59.000+00:00"
+        }
+    }
+}
+02-06-2023 @ 02:34:05 - [process_payment]: customer being redirected to Mercado Pago.
+02-06-2023 @ 02:34:05 - [get_transaction]: Preference: {
+    "additional_info": null,
+    "auto_return": "approved",
+    "back_urls": {
+        "failure": "https:\/\/multilnx.com\/cart\/?cancel_order=true&order=wc_order_WhpqlU4jZxMLT&order_id=21&redirect&_wpnonce=1b5cf0d3ec",
+        "pending": "https:\/\/multilnx.com\/checkout\/order-received\/21\/?key=wc_order_WhpqlU4jZxMLT",
+        "success": "https:\/\/multilnx.com\/checkout\/order-received\/21\/?key=wc_order_WhpqlU4jZxMLT"
+    },
+    "binary_mode": false,
+    "date_of_expiration": null,
+    "differential_pricing": null,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "expires": null,
+    "external_reference": "WC-21",
+    "items": [
+        {
+            "category_id": "others",
+            "currency_id": "BRL",
+            "description": "Criacao-de-pagina-de-destino-personalizada",
+            "id": 18,
+            "picture_url": "https:\/\/multilnx.com\/wp-content\/uploads\/2023\/02\/album-1.jpg",
+            "quantity": 1,
+            "title": "Landing Page x 2",
+            "unit_price": 59.8
+        }
+    ],
+    "marketplace": null,
+    "marketplace_fee": null,
+    "metadata": {
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.3.0",
+        "module_version": "6.7.0",
+        "php_version": "8.1.11",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "collector": "1303752454",
+        "test_mode": true,
+        "details": "",
+        "basic_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "installments": "12",
+            "method": "redirect",
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "ex_payments_master": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_visa": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "custom_settings": {
+            "enabled": "yes",
+            "currency_conversion": "yes",
+            "wallet_button": "yes",
+            "coupon_mode": "no",
+            "binary_mode": "no",
+            "gateway_discount_checkbox": "no",
+            "commission_checkbox": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated"
+        },
+        "ticket_settings": [],
+        "pix_settings": [],
+        "credits_settings": [],
+        "seller_website": "https:\/\/multilnx.com",
+        "billing_address": {
+            "zip_code": "69310125",
+            "street_name": "1343 Travessa Jardim Floresta",
+            "city_name": "Boa Vista",
+            "state_name": "RR",
+            "country_name": "BR"
+        },
+        "user": {
+            "registered_user": "yes",
+            "user_email": "cardoso.tads@gmail.com",
+            "user_registration_date": "2023-02-06T00:58:59.000+00:00"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect"
+    },
+    "notification_url": "https:\/\/multilnx.com\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+    "payer": {
+        "address": {
+            "street_name": "1343 Travessa Jardim Floresta \/ Boa Vista RR BR",
+            "street_number": null,
+            "zip_code": "69310-125"
+        },
+        "date_created": null,
+        "email": "cardoso.tads@gmail.com",
+        "identification": {
+            "number": null,
+            "type": null
+        },
+        "name": "Wesley",
+        "phone": {
+            "area_code": null,
+            "number": "95981114620"
+        },
+        "surname": "Cardoso"
+    },
+    "payment_methods": {
+        "default_installments": null,
+        "default_payment_method_id": null,
+        "installments": 12
+    },
+    "purpose": null,
+    "shipments": {
+        "cost": null,
+        "default_shipping_method": null,
+        "dimensions": null,
+        "free_shipping": null,
+        "local_pickup": null,
+        "mode": null,
+        "receiver_address": {
+            "apartment": "",
+            "city_name": "",
+            "floor": null,
+            "state_name": "",
+            "street_name": "    ",
+            "street_number": null,
+            "zip_code": ""
+        }
+    },
+    "sponsor_id": null,
+    "statement_descriptor": "CodeTag - Soluções em tecnologia"
+}
+02-06-2023 @ 02:34:06 - [create_preference]: Created Preference: {
+    "id": "1303752454-5fe32135-7ae5-4bcd-b572-90f3cff7d956",
+    "collector_id": 1303752454,
+    "operation_type": "regular_payment",
+    "items": [
+        {
+            "id": "18",
+            "picture_url": "https:\/\/http2.mlstatic.com\/D_NQ_NP_816912-MLB53632934807_022023-F.jpg",
+            "title": "Landing Page x 2",
+            "description": "Criacao-de-pagina-de-destino-personalizada",
+            "category_id": "others",
+            "currency_id": "BRL",
+            "quantity": 1,
+            "unit_price": 59.8
+        }
+    ],
+    "payer": {
+        "name": "Wesley",
+        "surname": "Cardoso",
+        "email": "cardoso.tads@gmail.com",
+        "date_created": null,
+        "phone": {
+            "area_code": "",
+            "number": "95981114620"
+        },
+        "identification": {
+            "number": "",
+            "type": ""
+        },
+        "address": {
+            "street_name": "1343 Travessa Jardim Floresta  Boa Vista RR BR",
+            "street_number": null,
+            "zip_code": "69310-125"
+        }
+    },
+    "back_urls": {
+        "success": "https:\/\/multilnx.com\/checkout\/order-received\/21\/?key=wc_order_WhpqlU4jZxMLT",
+        "pending": "https:\/\/multilnx.com\/checkout\/order-received\/21\/?key=wc_order_WhpqlU4jZxMLT",
+        "failure": "https:\/\/multilnx.com\/cart\/?cancel_order=true&order=wc_order_WhpqlU4jZxMLT&order_id=21&redirect&_wpnonce=1b5cf0d3ec"
+    },
+    "auto_return": "approved",
+    "payment_methods": {
+        "default_payment_method_id": null,
+        "excluded_payment_methods": [
+            {
+                "id": ""
+            }
+        ],
+        "excluded_payment_types": [
+            {
+                "id": ""
+            }
+        ],
+        "installments": 12,
+        "default_installments": null
+    },
+    "client_id": "393943123709041",
+    "marketplace": "NONE",
+    "marketplace_fee": 0,
+    "shipments": {
+        "receiver_address": {
+            "zip_code": "",
+            "street_name": "    ",
+            "street_number": null,
+            "floor": "",
+            "apartment": ""
+        }
+    },
+    "notification_url": "http:\/\/internal.mercadopago.com\/v1\/bifrost\/merchant-order-notification\/webhook\/production?source_news=ipn&notify_all=false",
+    "statement_descriptor": "CodeTag - Soluções em tecnologia",
+    "external_reference": "WC-21",
+    "additional_info": "",
+    "expires": false,
+    "expiration_date_from": null,
+    "expiration_date_to": null,
+    "date_created": "2023-02-06T01:34:06.209-04:00",
+    "init_point": "https:\/\/www.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=1303752454-5fe32135-7ae5-4bcd-b572-90f3cff7d956",
+    "sandbox_init_point": "https:\/\/sandbox.mercadopago.com.br\/checkout\/v1\/redirect?pref_id=1303752454-5fe32135-7ae5-4bcd-b572-90f3cff7d956",
+    "metadata": {
+        "basic_settings": {
+            "auto_return": "yes",
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "currency_conversion": "yes",
+            "enabled": "yes",
+            "ex_payments_amex": "yes",
+            "ex_payments_bolbradesco": "yes",
+            "ex_payments_debelo": "yes",
+            "ex_payments_elo": "yes",
+            "ex_payments_hipercard": "yes",
+            "ex_payments_master": "yes",
+            "ex_payments_pec": "yes",
+            "ex_payments_visa": "yes",
+            "gateway_discount_checkbox": "no",
+            "installments": "12",
+            "method": "redirect"
+        },
+        "billing_address": {
+            "city_name": "Boa Vista",
+            "country_name": "BR",
+            "state_name": "RR",
+            "street_name": "1343 Travessa Jardim Floresta",
+            "zip_code": "69310125"
+        },
+        "checkout": "smart",
+        "checkout_type": "redirect",
+        "collector": "1303752454",
+        "credits_settings": [],
+        "custom_settings": {
+            "binary_mode": "no",
+            "checkbox_checkout_test_mode": "yes",
+            "checkout_credential_prod": "deprecated",
+            "commission_checkbox": "no",
+            "coupon_mode": "no",
+            "currency_conversion": "yes",
+            "enabled": "yes",
+            "gateway_discount_checkbox": "no",
+            "wallet_button": "yes"
+        },
+        "details": "",
+        "module_version": "6.7.0",
+        "original_notification_url": "https:\/\/multilnx.com\/wc-api\/WC_WooMercadoPago_Basic_Gateway\/?source_news=ipn",
+        "php_version": "8.1.11",
+        "pix_settings": [],
+        "platform": "bo2hnr2ic4p001kbgpt0",
+        "platform_version": "7.3.0",
+        "seller_website": "https:\/\/multilnx.com",
+        "site_id": "mlb",
+        "sponsor_id": 208686191,
+        "test_mode": true,
+        "ticket_settings": [],
+        "user": {
+            "registered_user": "yes",
+            "user_email": "cardoso.tads@gmail.com",
+            "user_registration_date": "2023-02-06T00:58:59.000+00:00"
+        }
+    }
+}
